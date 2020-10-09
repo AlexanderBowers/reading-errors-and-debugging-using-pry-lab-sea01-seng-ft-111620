@@ -16,6 +16,8 @@ def selection(num)
   elsif num == 2
      puts "YUM YUM MUNCH MUNCH MUNCH"
   end
+  binding.binding.pry
+  puts "hello"
 end
 
 def runner
