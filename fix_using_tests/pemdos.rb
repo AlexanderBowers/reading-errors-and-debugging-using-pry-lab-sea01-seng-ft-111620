@@ -17,4 +17,5 @@ def snake_it_up(string)
     string.concat "s"
     counter += 1
   end
+  string
 end
