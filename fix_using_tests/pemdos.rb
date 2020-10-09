@@ -7,3 +7,14 @@ def snake_it_up(string)
     string
   end
 end
+
+
+
+
+def snake_it_up(string)
+  counter = 0
+  until counter == 10
+    string.concat "s"
+    counter += 1
+  end
+end
