@@ -10,6 +10,5 @@ def state_log(generate_star_date)
 end
 
 def engage
-  #generate_star_date
   puts state_log(generate_star_date)
 end
